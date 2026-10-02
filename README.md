@@ -7,7 +7,7 @@ Personal lab to get up and running with OpenCode, as well as how to build an har
 Prefer installing globally with `pnpm`. The bash install script seems to leave many dangling dependencies.
 
 ```bash
-pnpm install -g @opencode/cli --allow-build 
+pnpm install -g @opencode/cli --allow-build=@opencode/cli
 ```
 
 ## Initial usage
